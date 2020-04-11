@@ -2,7 +2,7 @@ name: puppeteer-es-modules-esm-mocha-chai-should
 'on':
   push: null
   schedule:
-    - cron: 59 3 2-31/2 * *
+    - cron: 0 2 1-31/2 * *
 jobs:
   build:
     runs-on: ubuntu-latest
